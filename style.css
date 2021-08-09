@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    
+}
+.hcontainer{
+    height: fit-content;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    z-index: 1;
+    top: 0;
+    background-color: #FFF3F3;
+}
+
+.hcontainer > a
+{
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    top: 12px;
+    color: grey;
+    
+}
+.hcontainer a:hover:nth-child(1)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(2)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(3)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(4)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(5)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(6)
+{
+    color:orangered;
+}
+.hcontainer a:hover:nth-child(7)
+{
+    color:orangered;
+}
+
+
+
+.hcontainer > img
+{
+   margin-left: 250px;
+   margin-right: 450px; 
+}
+
+.bcontainer{
+    margin-top: 100px;
+}
+.bcontainer > h2{
+    font-family:'Open Sans Condensed', sans-serif;
+    position: absolute;
+    left:45%;
+}
+#i1
+{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 135px;
+    left: 60px;
+    transition: transform .7s;
+    
+}
+#i1:hover{
+    transform: scale(1.1);
+}
+#t1{
+    font-family:'Open Sans Condensed', sans-serif;
+    position: relative;
+    top: 170px;
+    left: 51%;
+    height: fit-content;
+    width: fit-content;
+   
+}
+#t1:hover{
+    color: red;
+}
+
+#i2{
+    margin-top: 473px;
+    width: 100%;
+}
+
+#t2,#t3,#t4{
+    font-family:'Open Sans Condensed', sans-serif;
+    position: relative;
+    top: 40px;
+    left: 46%;
+    height: fit-content;
+    width: fit-content; 
+}
+
+.gallery{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+}
+.gallery > img
+{
+    position: relative;
+    top: 90px;
+    margin-left: 10px;
+    transition: transform .7s;
+}
+.gallery img:hover{
+    transform: scale(0.8);
+
+}
+#t3{
+    top: 135px;
+}
+
+.bcontainer > p{
+    font-family: 'Caveat', cursive;
+    position: relative;
+    top: 150px;
+    font-size: 25px;
+
+}
+#t4{
+    top: 145px;
+}
+
+.map
+{
+    position: absolute;
+    top: 3000px; 
+    height: fit-content;
+    width: 100%;
+}
+.map > h1{
+    font-family:'Open Sans Condensed', sans-serif;
+    position: relative;
+    top: 0px;
+    left: 47%;
+    height: fit-content;
+    width: fit-content; 
+}
+
+#i3
+{
+    margin-top: 40px;
+    width: 100%;
+    height:500px;
+}
+.askbox{
+    width: 450px;
+    height: 350px;
+    border:none;
+    border-radius: 10%;
+    position: absolute;
+    top: 150px;
+    left: 60%;
+    background-color: #FF3333;
+    opacity: 0.8;
+    
+}
+.askbox:hover{
+    opacity: 1;
+}
+.askbox > h2
+{
+    font-size: 30px;
+    color: white;
+    text-shadow: 8px 5px 13px lightcyan;
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+.askbox > input
+{
+    position: relative;
+    top: 70px;
+    display: flex;
+    left: 100px;
+    height: 30px;
+    width: 250px;
+    border: 0.2px;
+    border-radius:25px;
+    background-color: oldlace;
+    text-align: center;
+}
+.askbox > textarea
+{
+    position: relative;
+    top: 100px;
+    resize: none;
+    left:90px;
+    height: 100px;
+    width: 275px;
+    border: 0.2px;
+    border-radius:10px;
+    font-family:'Open Sans Condensed', sans-serif;
+    color: orangered;
+    font-size: 20px;
+}
+.askbox > button{
+    position: relative;
+    right: 120px;
+    top: 140px;
+    height: 30px;
+    width: 150px;
+    background-color: palegreen;
+    border: .2px;
+    border-radius: 20px;
+    color:red;
+}
+.youtube
+{
+    position:absolute;
+    top: 2140px;
+    
+}
+.youtube > h1
+{
+    font-family:'Open Sans Condensed', sans-serif;
+    position: relative;
+    top: 0px;
+    left: 43.5%;
+    height: fit-content;
+    width: fit-content; 
+}
+.youtube > iframe
+{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 100px;
+    left: 40px;
+    top: 0px;
+    transition: transform .7s;
+}
+.youtube iframe:hover
+{
+    transform: scale(1.1);
+
+}
+.fcontainer
+{
+    margin-top:40px ;
+    border: none;
+    height: fit-content;
+    width:100%;
+    position: absolute;
+    top: 3582px;
+    display: inline;
+}
+.fcontainer > img{
+    height: 20px;
+    position: absolute;
+    top: 45px;
+    left: 550px;
+}
+.fcontainer > h3{
+    left:43%;
+    position: absolute;
+    top:45px ;
+    font-size: 15px;
+    color: silver;
+}
+.fcontainer > a > i
+{
+    
+    font-size: 25px;
+ margin-left:300px;
+   
+}
+.fcontainer > i
+{
+    
+    font-size: 25px;
+ margin-left:300px;
+   
+}
+
+.fcontainer a:nth-child(1)
+{
+    color: #3b5998;
+}
+.fcontainer a:nth-child(2)
+{
+    color: #1DA1F2;
+}
+.fcontainer i:nth-child(3)
+{
+    
+    color: #fff;
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+
+}
+.fcontainer a:nth-child(4)
+{
+    color: #FF0000;
+
+}
